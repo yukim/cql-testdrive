@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+}
+
+header {
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+  color: #333;
+  font-family: 'Ultra', arial, serif;
+  font-size: 3em;
+
+  text-align: center;
+}
+
+div.query {
+  text-align: center;
+  margin: auto;
+  width: 90%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  padding: 5px;
+
+  color: #fff;
+  text-align: center;
+  background-color: #333;
+}
+
+#result {
+  width: 90%;
+  text-align: left;
+  margin-top: 1em;
+}
+
+#result ul {
+  margin: 0;
+}
+#result ul li {
+  list-style: none;
+  margin-bottom: 0.7em;
+}
+
+#result span {
+  font-family: 'Droid Sans Mono', monospace;
+  font-size: 1.25em;
+
+  border-radius: 3px;
+  display: inline-box;
+  padding: 0 1em 0 1em;
+  margin-top: 0.7em;
+  margin-right: 0.7em;
+}
+
+.primarykey {
+  color: white;
+  background: purple;
+}
+
+.col {
+  color: black;
+  background: yellow;
+}
+
+.val {
+  color: black;
+  background: white;
+}
+
+.CodeMirror {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+
+  border: 1px solid #999;
+  border-radius: 0.75em;
+
+  font-family: 'Droid Sans Mono', monospace;
+  font-size: 1.5em;
+
+  text-align: left;
+}
+
+.CodeMirror pre {
+  line-height: 1.5em;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <link rel="stylesheet" href="codemirror/codemirror.css">
+  <link rel="stylesheet" href="codemirror/plsql.css">
+  <link rel="stylesheet" href="css/cql.css">
+  <link href="http://fonts.googleapis.com/css?family=Ultra" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="js/jquery-1.6.min.js"></script>
+  <script type="text/javascript" src="codemirror/codemirror.js"></script>
+  <script type="text/javascript" src="codemirror/plsql.js"></script>
+	<title>CQL Testdrive</title>
+</head>
+<body>
+  <header>CQL Testdrive</header>
+  <div class="query">
+    <form id="exec" action="cql" method="POST">
+      <textarea id="query" name="query" row="1"></textarea>
+      <button id="btn">Execute</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <footer></footer>
+  <script type="text/javascript" src="js/cql.js"></script>
+</body>
+</html>
